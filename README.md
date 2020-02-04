@@ -77,3 +77,11 @@ Hello, world!
 Nice. I also played around with the message to see if there would be any issue with UTF-8 characters. There weren't any. 😊
 
 I also added the executable file created to .gitignore. It seemed the right thing to do.
+
+## Cargo project
+
+In order to make this already created project a Cargo project ([following the Getting Started guide](https://doc.rust-lang.org/book/ch01-03-hello-cargo.html)), I ran `cargo new rustInit` and then the contents of the rustInit folder created with that to the project's root.
+
+After running `cargo build`, I got an warning telling me to use snake case instead of came case I've been using so far. Good to know, Rust also prefers snake case. Renamed the project after learning that.
+
+I also searched for a better .gitignore for a Cargo project, since the tutorial didn't mention anything about it.
