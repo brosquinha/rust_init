@@ -93,3 +93,7 @@ In order to make this already created project a Cargo project ([following the Ge
 After running `cargo build`, I got an warning telling me to use snake case instead of came case I've been using so far. Good to know, Rust also prefers snake case. Renamed the project after learning that.
 
 I also searched for a better .gitignore for a Cargo project, since the tutorial didn't mention anything about it.
+
+## Guessing game
+
+I continued to follow the Rust Book and started creating the Chapter s's guessing game.
