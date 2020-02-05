@@ -59,6 +59,14 @@ source /home/thales/.asdf/installs/rust/1.41.0/env
 
 After that, I had Rust running and compiling. Show!
 
+### Visual Studio Code + ASDF + Rust
+
+In order to make the official VSCode Rust extension work with this setup, all that is required is to add this to settings.json:
+
+```json
+  "rust-client.disableRustup": true
+```
+
 ## Hello world
 
 Following [Rust's Getting Started guide](https://doc.rust-lang.org/book/ch01-02-hello-world.html), I created a program called main.rs with the tutorial's content. I ran:
